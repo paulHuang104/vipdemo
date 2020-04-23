@@ -16,6 +16,12 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@104vip-f2e-common": [
+        "node_modules/104vip-f2e-common/src"
+      ],
+      "@104vip-f2e-common/*": [
+        "node_modules/104vip-f2e-common/src/*"
       ]
     },
     "lib": [

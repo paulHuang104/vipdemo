@@ -1,0 +1,16 @@
+
+@import './variables';
+
+#app {
+  font-family: PingFangTC, "Microsoft JhengHei", 微軟正黑體, Helvetica, Arial, Verdana, sans-serif;
+  font-size: 16px;
+  .main-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    @media screen and (max-width: 1240px) {
+      max-width: 980px;
+    }
+  }
+
+
+}
